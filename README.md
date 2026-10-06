@@ -1,11 +1,6 @@
-cat << 'EOF' > README.md
 # 🛡️ Cowrie SSH Threat Intelligence & MITRE ATT&CK Pipeline
 
 A lightweight, automated Cyber Threat Intelligence (CTI) and telemetry ingestion engine built to capture, parse, and analyze real-world SSH brute-force and post-exploitation activity.
-
-![Dashboard Preview](docs/dashboard_overview.png)
-
----
 
 ## 📌 Architecture Overview
 
@@ -45,8 +40,6 @@ A lightweight, automated Cyber Threat Intelligence (CTI) and telemetry ingestion
   - `T1053.003` (Cron Persistence: `crontab`)
 - **Interactive Security Operations UI:** Built with Streamlit and Plotly for high-level KPI tracking and granular command timeline triage.
 
-![MITRE Mapping](docs/dashboard_previw_2.png)
-
 ---
 
 ## 🛠️ Tech Stack
@@ -63,7 +56,7 @@ A lightweight, automated Cyber Threat Intelligence (CTI) and telemetry ingestion
 ## ⚙️ Installation & Usage
 
 ### 1. Clone the Repository
-git clone https://github.com/vvanshaj-goel/ssh-threat-pipeline.git
+git clone https://github.com/vanshajj-goel/ssh-threat-pipeline.git
 
 cd ssh-threat-pipeline
 
